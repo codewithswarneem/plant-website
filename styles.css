@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow:hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(84, 84, 6, 0.969);
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    /*background-color: aqua;*/
+}
+#part2{
+    height: 100%;
+    width: 57%;
+    background-color: yellow;
+    background-image: url(https://images.unsplash.com/photo-1601985705806-5b9a71f6004f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGxhbnRzfGVufDB8fDB8fHww);
+    background-size: cover;
+    background-position: center;
+
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(193, 193, 165, 0.632);
+
+}
+#part3{
+    height: 100%;
+    width: 17%;
+}
+#text{
+   position: absolute;
+   width:400px ;
+   color:#fff;
+   left: 15%;
+   top: 50%;
+   transform: translate(0,-50%);
+   
+}
+#text h1{
+    font-size: 70px;
+    font-family:sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 70px;
+    text-transform: uppercase;
+    }
+#small{
+    height: 350px;
+    width: 300px;
+    background-image: url(https://images.pexels.com/photos/793012/pexels-photo-793012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    position:absolute;
+    top: 50%;
+    right:9%;
+    transform: translate(0,-50%);
+
+}
+#plantphoto{
+    height: 350px;
+    width: 300px;
+    background-image: url(https://images.pexels.com/photos/1424672/pexels-photo-1424672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    position:absolute;
+    top: 70%;
+    left:10%;
+
+}
+#vertical-text{
+    position: absolute;
+    right:-48%;
+    top:-7%;
+    transform-origin: 0%  0%;
+     transform: rotate(90deg);
+}
+#vertical-text h1{
+    font-size: 70px;
+    font-weight:900;
+    color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-family: sans-serif;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color:#fff;
+}
+#horizontal-text{
+    position: absolute;
+    transform: rotate(90deg);
+    left: -27%;
+    top: 10%;
+}
+#horizontal-text h1{
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: 20px;
+    color: transparent;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 5px;
+}
+#navbar{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    left: 12%;
+    top: 4%;
+}
+
+#navbar img{
+    height:200px;
+    width: 200px;
+}
